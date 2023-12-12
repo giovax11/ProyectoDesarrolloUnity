@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.2
+  m_FogDensity: 0.3
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.21688566, g: 0.2264151, b: 0.18668565, a: 1}
@@ -54285,13 +54285,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3068103602324125465}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24866fd877eed4481a2d4cfd73bb2242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   on: 1
-  strength: 0.06
+  strength: 0.03
   material: {fileID: 2100000, guid: dabac87302b71472d89c8543b765eba8, type: 2}
 --- !u!1 &3068103602324125465
 GameObject:
@@ -54556,7 +54556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   on: 1
-  level: 70
+  level: 60
   material: {fileID: 2100000, guid: 84da12828e118449c8833ae1aa31804d, type: 2}
 --- !u!222 &6604477339924605611
 CanvasRenderer:
@@ -54616,7 +54616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   on: 1
   thickDistort: 0.3
-  fineDistort: 3.7
+  fineDistort: 2.2
   material: {fileID: 2100000, guid: 0b2b1aef91c2345ab8d2fecf276fba3c, type: 2}
 --- !u!20 &6965875843201132151
 Camera:
@@ -54744,8 +54744,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   on: 1
-  strength: 0.66
-  size: 2.56
+  strength: 0.11
+  size: 0.7
   cutOff: 0.214
   material: {fileID: 2100000, guid: 8505dcfb904c34d3990c8703d7bbb780, type: 2}
 --- !u!225 &8265770954986188635
