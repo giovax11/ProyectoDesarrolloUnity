@@ -23,6 +23,7 @@ public class Jumpscare_hall : MonoBehaviour
     {
         if (!hasTriggered && other.CompareTag("Player"))
         {
+            monster.SetActive(true);
            if (screamAudio != null)
             {
                 screamAudio.Play();}
