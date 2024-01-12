@@ -12,9 +12,12 @@ public class FinalJumpScare : MonoBehaviour
 
     public Animator animator;
 
+    private AudioSource screamAudio;
+
+
     void Start()
     {
-    
+    screamAudio = monster.GetComponent<AudioSource>();
     }
 
         private void OnTriggerEnter(Collider other)
@@ -22,6 +25,12 @@ public class FinalJumpScare : MonoBehaviour
 
         if (!hasTriggered && other.CompareTag("Player"))
         {
+            
+        if (screamAudio != null)
+            {
+                screamAudio.Play();}
+     
+        
               if (animator)
         {
             animator.SetBool("Sprint_transition", true);
