@@ -29,13 +29,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amount: 655
+    - _Amount: 700
     - _Glossiness: 0.5
     - _Grayscale: 0
     - _Metallic: 0
-    - _Noise: 0.72
-    - _Speed: 0
-    - _Strength: 0.5
+    - _Noise: 1.4
+    - _Speed: 6
+    - _Strength: 0.19999999
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

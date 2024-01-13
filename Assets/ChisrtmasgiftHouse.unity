@@ -41006,7 +41006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 868531deeaa816d45bc30e0798db9591, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.429
+      value: 4.413
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 868531deeaa816d45bc30e0798db9591, type: 3}
       propertyPath: m_LocalPosition.z
@@ -56835,13 +56835,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88571dab8b35d4986bd57c94d47728a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  on: 0
+  on: 1
   grayscale: 0
-  amount: 800
-  strength: 0.9
-  noise: 0.4
-  speed: 5
-  material: {fileID: 0}
+  amount: 700
+  strength: 0.19999999
+  noise: 1.4
+  speed: 6
+  material: {fileID: 2100000, guid: 34707840cacc149bbae1e03a783fcb40, type: 2}
 --- !u!23 &547989956849749843
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57475,10 +57475,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4e2a4358e02d4f30bac5028d43ad851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  on: 0
-  thickDistort: 3
-  fineDistort: 1
-  material: {fileID: 0}
+  on: 1
+  thickDistort: 0.3
+  fineDistort: 2.2
+  material: {fileID: 2100000, guid: 0b2b1aef91c2345ab8d2fecf276fba3c, type: 2}
 --- !u!20 &6965875843201132151
 Camera:
   m_ObjectHideFlags: 0
@@ -57565,10 +57565,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54c6bfda817a46eb9d976719fd25909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  on: 0
-  amount: 0.05
-  speed: 5
-  material: {fileID: 0}
+  on: 1
+  amount: 0.007
+  speed: 0.75
+  material: {fileID: 2100000, guid: 668e4ca5bbe07424e90bffec7dd41598, type: 2}
 --- !u!114 &7670708418335981778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57604,11 +57604,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ab33814d3e304398a9dc8c472d212cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  on: 0
-  strength: 0.6
-  size: 4
+  on: 1
+  strength: 0.19999999
+  size: 3
   cutOff: 0.3
-  material: {fileID: 0}
+  material: {fileID: 2100000, guid: 8505dcfb904c34d3990c8703d7bbb780, type: 2}
 --- !u!225 &8265770954986188635
 CanvasGroup:
   m_ObjectHideFlags: 0
