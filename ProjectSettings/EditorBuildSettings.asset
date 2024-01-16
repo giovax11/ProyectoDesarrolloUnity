@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ChisrtmasgiftHouse.unity
     guid: 5f8c30371b13c3c4684eb82c0f52fe27
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 9a1d611c82e7b5a4196b88c5feadf03f
   m_configObjects: {}

@@ -53888,6 +53888,7 @@ GameObject:
   - component: {fileID: 1663261851}
   - component: {fileID: 1663261850}
   - component: {fileID: 1663261852}
+  - component: {fileID: 1663261853}
   m_Layer: 0
   m_Name: final_jumspcare (1)
   m_TagString: Untagged
@@ -53952,6 +53953,20 @@ MonoBehaviour:
   posterize: {fileID: 6561559060539221188}
   tvEffect: {fileID: 6911549238812935061}
   pixelation: {fileID: 7670708418335981778}
+--- !u!114 &1663261853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663261849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a287b3a49883414b824b332948a8fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscena: EndScreen
+  tiempoEspera: 7
 --- !u!4 &1665434368 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -998830251203483955, guid: 0a946d3eac85bf743a965bc6b14882fb, type: 3}
@@ -55149,6 +55164,7 @@ GameObject:
   - component: {fileID: 1780245912}
   - component: {fileID: 1780245911}
   - component: {fileID: 1780245910}
+  - component: {fileID: 1780245913}
   m_Layer: 0
   m_Name: final_jumspcare (2)
   m_TagString: Untagged
@@ -55213,6 +55229,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1780245913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780245909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a287b3a49883414b824b332948a8fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscena: EndScreen
+  tiempoEspera: 7
 --- !u!1001 &1787985319
 PrefabInstance:
   m_ObjectHideFlags: 0
