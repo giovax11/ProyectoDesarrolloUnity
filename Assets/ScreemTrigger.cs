@@ -6,6 +6,9 @@ public class ScreemTrigger : MonoBehaviour
 {
     public AudioSource scream;
     private bool hasTriggered = false;
+    public GameObject hallTrigger;
+
+    public GameObject[] lights;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,11 @@ public class ScreemTrigger : MonoBehaviour
         {
             hasTriggered = true;
             scream.Play();
+            hallTrigger.SetActive(true);
+           foreach (GameObject light in lights)
+            {
+               light.SetActive(false);
+            }
         }
     }
 }
